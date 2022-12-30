@@ -8,3 +8,9 @@ https://hub.docker.com/r/prom/prometheus
 open -a Docker
 docker pull prom/prometheus
 ```
+
+```
+docker image ls
+REPOSITORY        TAG       IMAGE ID       CREATED       SIZE
+prom/prometheus   latest    932c2dbe7d3e   10 days ago   231MB
+```
