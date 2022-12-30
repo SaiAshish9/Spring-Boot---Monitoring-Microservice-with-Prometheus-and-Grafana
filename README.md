@@ -77,3 +77,16 @@ Digest: sha256:2a73ae33c9f0c51af6eced2ef185d5d3682b4c378c4fdd6941a14e8ea4a3e95b
 Status: Downloaded newer image for grafana/grafana:latest
 81e3c926a838c78a6e45a05e750e960f261dea0b5bc5de5f081718d4fe5be7e6
 ```
+
+```
+docker ps                                                                            
+CONTAINER ID   IMAGE             COMMAND                  CREATED          STATUS          PORTS                    NAMES
+81e3c926a838   grafana/grafana   "/run.sh"                19 minutes ago   Up 19 minutes   0.0.0.0:3000->3000/tcp   grafana88
+927340a5ae8c   prom/prometheus   "/bin/prometheus --c…"   41 minutes ago   Up 41 minutes   0.0.0.0:9090->9090/tcp   gifted_montalcini
+
+docker stop 81e
+81e
+
+docker stop 927
+927
+```
