@@ -9,6 +9,10 @@
 <img width="955" alt="Screenshot 2022-12-31 at 1 58 53 AM" src="https://user-images.githubusercontent.com/43849911/210109585-da452744-f01c-4e84-80fa-78d6c24ec8b9.png">
 <img width="1467" alt="Screenshot 2022-12-31 at 2 00 22 AM" src="https://user-images.githubusercontent.com/43849911/210109664-742f25a1-98c2-4db9-a757-f2c18b42e99d.png">
 <img width="1464" alt="Screenshot 2022-12-31 at 2 01 32 AM" src="https://user-images.githubusercontent.com/43849911/210109744-eb2062fe-e7a8-49a5-9389-51840e718c45.png">
+<img width="680" alt="Screenshot 2022-12-31 at 2 03 41 AM" src="https://user-images.githubusercontent.com/43849911/210109874-26d8ea3a-3a86-49ff-9503-40fcb5ee8627.png">
+<img width="782" alt="Screenshot 2022-12-31 at 2 03 55 AM" src="https://user-images.githubusercontent.com/43849911/210109885-4588beab-df3f-4325-aa1c-7a83d09c7c95.png">
+<img width="1744" alt="Screenshot 2022-12-31 at 2 09 46 AM" src="https://user-images.githubusercontent.com/43849911/210110231-1f7d60c8-18a4-4182-837b-dfd02c131066.png">
+<img width="1747" alt="Screenshot 2022-12-31 at 2 10 04 AM" src="https://user-images.githubusercontent.com/43849911/210110213-a9dc4795-33fc-47e8-bd56-bfbf31964483.png">
 
 https://hub.docker.com/r/prom/prometheus
 
@@ -73,4 +77,3 @@ Digest: sha256:2a73ae33c9f0c51af6eced2ef185d5d3682b4c378c4fdd6941a14e8ea4a3e95b
 Status: Downloaded newer image for grafana/grafana:latest
 81e3c926a838c78a6e45a05e750e960f261dea0b5bc5de5f081718d4fe5be7e6
 ```
-
