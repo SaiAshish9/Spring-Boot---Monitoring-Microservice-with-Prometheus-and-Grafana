@@ -6,6 +6,7 @@
 <img width="1161" alt="Screenshot 2022-12-31 at 1 44 37 AM" src="https://user-images.githubusercontent.com/43849911/210108704-be82030d-6c11-49b9-8376-ca27e5a4d694.png">
 <img width="1743" alt="Screenshot 2022-12-31 at 1 48 27 AM" src="https://user-images.githubusercontent.com/43849911/210108964-f14d90d4-c6b4-48ed-a6ee-2a7be8595e3b.png">
 <img width="1742" alt="Screenshot 2022-12-31 at 1 51 17 AM" src="https://user-images.githubusercontent.com/43849911/210109146-242e474b-0367-4d2b-bdc7-447e46345d2e.png">
+<img width="955" alt="Screenshot 2022-12-31 at 1 58 53 AM" src="https://user-images.githubusercontent.com/43849911/210109585-da452744-f01c-4e84-80fa-78d6c24ec8b9.png">
 
 https://hub.docker.com/r/prom/prometheus
 
@@ -51,5 +52,23 @@ ts=2022-12-30T20:05:54.704Z caller=main.go:1197 level=info msg="Loading configur
 ts=2022-12-30T20:05:54.705Z caller=main.go:1234 level=info msg="Completed loading of configuration file" filename=/etc/prometheus/prometheus.yml totalDuration=513.823µs db_storage=949ns remote_storage=1.536µs web_handler=376ns query_engine=711ns scrape=245.307µs scrape_sd=14.982µs notify=19.121µs notify_sd=7.367µs rules=1.234µs tracing=3.992µs
 ts=2022-12-30T20:05:54.705Z caller=main.go:978 level=info msg="Server is ready to receive web requests."
 ts=2022-12-30T20:05:54.705Z caller=manager.go:953 level=info component="rule manager" msg="Starting rule manager..."
+```
+
+```
+docker run -d --name=grafana88 -p 3000:3000 grafana/grafana
+Unable to find image 'grafana/grafana:latest' locally
+latest: Pulling from grafana/grafana
+9621f1afde84: Pull complete 
+db7fbc631880: Pull complete 
+afb29f8d05c6: Pull complete 
+2d9c2cfef851: Pull complete 
+0f9c8679de96: Pull complete 
+d8d1a816d728: Pull complete 
+09aac180a7fc: Pull complete 
+1c5ec5c4e84a: Pull complete 
+0b0714ac27d7: Pull complete 
+Digest: sha256:2a73ae33c9f0c51af6eced2ef185d5d3682b4c378c4fdd6941a14e8ea4a3e95b
+Status: Downloaded newer image for grafana/grafana:latest
+81e3c926a838c78a6e45a05e750e960f261dea0b5bc5de5f081718d4fe5be7e6
 ```
 
