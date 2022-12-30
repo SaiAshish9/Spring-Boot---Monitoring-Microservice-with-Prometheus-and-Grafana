@@ -5,5 +5,6 @@
 https://hub.docker.com/r/prom/prometheus
 
 ```
+open -a Docker
 docker pull prom/prometheus
 ```
