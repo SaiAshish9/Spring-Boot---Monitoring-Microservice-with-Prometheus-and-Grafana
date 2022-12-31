@@ -13,8 +13,10 @@
 <img width="782" alt="Screenshot 2022-12-31 at 2 03 55 AM" src="https://user-images.githubusercontent.com/43849911/210109885-4588beab-df3f-4325-aa1c-7a83d09c7c95.png">
 <img width="1744" alt="Screenshot 2022-12-31 at 2 09 46 AM" src="https://user-images.githubusercontent.com/43849911/210110231-1f7d60c8-18a4-4182-837b-dfd02c131066.png">
 <img width="1747" alt="Screenshot 2022-12-31 at 2 10 04 AM" src="https://user-images.githubusercontent.com/43849911/210110213-a9dc4795-33fc-47e8-bd56-bfbf31964483.png">
+<img width="737" alt="Screenshot 2022-12-31 at 3 39 47 PM" src="https://user-images.githubusercontent.com/43849911/210132886-85c0226c-9085-4741-bdd0-eb25c3108385.png">
 
-https://hub.docker.com/r/prom/prometheus
+https://hub.docker.c<img width="737" alt="Screenshot 2022-12-31 at 3 39 47 PM" src="https://user-images.githubusercontent.com/43849911/210132878-536cadce-7b9b-464d-a7a1-d45fbe2bd093.png">
+om/r/prom/prometheus
 
 ```
 open -a Docker
