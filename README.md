@@ -36,8 +36,8 @@ ifconfig | grep "inet " | grep -Fv 127.0.0.1 | awk '{print $2}'
 ```
 
 ```
-docker run -p 9090:9090 -v /Users/saiashish/Desktop/sai/projects/PrometheusAndGrafana/src/main/resources/prometheus.yml 
-prom/prometheus
+docker run -p 9090:9090 -v 
+/Users/saiashish/Desktop/sai/projects/PrometheusAndGrafana/src/main/resources/prometheus.yml prom/prometheus
 
 ts=2022-12-30T20:05:54.696Z caller=main.go:512 level=info msg="No time or size retention was set so using the default time retention" duration=15d
 ts=2022-12-30T20:05:54.696Z caller=main.go:556 level=info msg="Starting Prometheus Server" mode=server version="(version=2.41.0, branch=HEAD, revision=c0d8a56c69014279464c0e15d8bfb0e153af0dab)"
